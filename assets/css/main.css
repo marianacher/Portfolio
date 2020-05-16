@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.black-bar {
+    background-color: black;
+    height: 85px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 95px;
+}
+
+#icons-color {
+    color: white;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 40px;
+}
+
+.cover-page {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: inherit;
+    flex-direction: row;
+    height: 394px;
+    width: 600px;
+}
