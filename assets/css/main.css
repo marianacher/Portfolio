@@ -1,38 +1,45 @@
-body {
-    margin: 0;
-    padding: 0;
+nav {
+  width: 25px;
+  line-height: 188px;
+  padding: 10px 0 0;
+  margin: 10px 0 0;
 }
-
-.black-bar {
-    background-color: black;
-    height: 85px;
+nav a {
+  color: #f4f4f4;
+}
+nav .menu_i {
+  display: inline-block;
+  vertical-align: top;
+  transform: translate(0, 100%) rotate(-90deg);
+  transform-origin: 0 0;
+  white-space: nowrap;
 }
 
 .icons {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    justify-content: space-around;
-    height: 95px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 95px;
+}
+.icons .icons-color {
+  color: #f4f4f4;
 }
 
-#icons-color {
-    color: white;
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
 }
-
-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    height: 40px;
+body .black-bar {
+  background-color: #050505;
+  height: 95px;
 }
 
 .cover-page {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: inherit;
-    flex-direction: row;
-    height: 394px;
-    width: 600px;
+  position: absolute;
+  top: 205px;
+  left: 555px;
 }
+
+/*# sourceMappingURL=main.css.map */

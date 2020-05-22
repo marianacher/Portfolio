@@ -1,0 +1,15 @@
+@import 'variables';
+
+.icons {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    height: $altura;
+    
+    .icons-color {
+        color: $blanco;
+        }
+   
+}
+

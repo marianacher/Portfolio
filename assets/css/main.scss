@@ -1,0 +1,20 @@
+@import 'menu';
+@import 'icons';
+@import 'variables';
+@import 'animation';
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: $negro;
+    .black-bar {
+        background-color: $grisoscuro;
+        height: $altura;
+    }
+}
+
+.cover-page {
+    position: absolute;
+    top: $p;
+    left: $gd;
+}

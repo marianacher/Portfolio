@@ -1,0 +1,18 @@
+@import 'variables';
+
+nav {
+    width: $ch;
+    line-height: 188px;
+    padding: $margen;
+    margin: $margen;
+    a {
+        color: $blanco;
+    }
+    .menu_i {
+        display: inline-block;
+        vertical-align: top;
+        transform: translate(0, 100%) rotate(-90deg);
+        transform-origin: 0 0;
+        white-space: nowrap;
+    }
+}
