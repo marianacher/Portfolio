@@ -29,10 +29,9 @@ nav .menu_i {
 body {
   margin: 0;
   padding: 0;
-  background-color: #000000;
+  background-color: #050505;
 }
 body .black-bar {
-  background-color: #050505;
   height: 95px;
 }
 
