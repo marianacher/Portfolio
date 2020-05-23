@@ -1,0 +1,25 @@
+
+.hologram1{
+    animation:  hologramlight 2s alternate infinite;
+  
+}
+
+
+ @keyframes hologramlight {
+  to{
+    opacity:0.2;
+    animation-timing-function:
+    linear
+  }
+ }
+
+ #holo{
+    animation-name: holo;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left:30px;
+    margin-top: 5px;
+}
+
+ 
