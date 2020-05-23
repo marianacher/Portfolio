@@ -23,3 +23,18 @@
 }
 
  
+ 
+  
+  .p {
+    stroke-dasharray: 6030;
+    stroke-dashoffset: 6030;
+    animation: write 20s linear forwards;
+    animation-delay: .8s;
+  }
+
+
+@keyframes write {
+    to {
+        stroke-dashoffset: 0;
+    }
+}

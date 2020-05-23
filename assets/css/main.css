@@ -45,6 +45,18 @@ nav .menu_i {
   margin-top: 5px;
 }
 
+.p {
+  stroke-dasharray: 6030;
+  stroke-dashoffset: 6030;
+  animation: write 20s linear forwards;
+  animation-delay: 0.8s;
+}
+
+@keyframes write {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
 body {
   margin: 0;
   padding: 0;
