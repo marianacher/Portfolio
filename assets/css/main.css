@@ -16,6 +16,7 @@ nav .menu_i {
 }
 
 .icons {
+  width: 1250px;
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -69,8 +70,8 @@ body .black-bar {
 .cover-page {
   position: absolute;
   top: 205px;
-  left: 85px;
-  width: 1280px;
+  left: 115px;
+  width: 1200px;
   height: 699px;
 }
 
