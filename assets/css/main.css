@@ -16,7 +16,7 @@ nav .menu_i {
 }
 
 .icons {
-  width: 1250px;
+  width: 1280px;
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -71,7 +71,7 @@ body .black-bar {
   position: absolute;
   top: 205px;
   left: 115px;
-  width: 1200px;
+  width: 1250px;
   height: 699px;
 }
 
