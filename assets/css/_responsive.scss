@@ -1,0 +1,31 @@
+@media only screen and (max-width:600px){
+     .black-bar {
+        height: $altura;
+    }
+    .icons {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    height: $altura;
+    }
+
+    
+nav {
+    width: $ch;
+    line-height: 188px;
+    padding: $margen;
+    margin: $margen;
+    a {
+        color: $blanco;
+    }
+    .menu_i {
+        display: inline-block;
+        vertical-align: top;
+        transform: translate(0, 100%) rotate(-90deg);
+        transform-origin: 0 0;
+        white-space: nowrap;
+    }
+}
+}

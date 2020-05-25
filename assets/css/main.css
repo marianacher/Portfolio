@@ -58,6 +58,37 @@ nav .menu_i {
     stroke-dashoffset: 0;
   }
 }
+@media only screen and (max-width: 600px) {
+  .black-bar {
+    height: 95px;
+  }
+
+  .icons {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 95px;
+  }
+
+  nav {
+    width: 25px;
+    line-height: 188px;
+    padding: 10px 0 0;
+    margin: 10px 0 0;
+  }
+  nav a {
+    color: #f4f4f4;
+  }
+  nav .menu_i {
+    display: inline-block;
+    vertical-align: top;
+    transform: translate(0, 100%) rotate(-90deg);
+    transform-origin: 0 0;
+    white-space: nowrap;
+  }
+}
 body {
   margin: 0;
   padding: 0;
