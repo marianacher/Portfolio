@@ -1,3 +1,5 @@
+@import 'variables';
+
 @media only screen and (max-width:600px){
      .black-bar {
         height: $altura;
@@ -19,13 +21,56 @@ nav {
     margin: $margen;
     a {
         color: $blanco;
-    }
-    .menu_i {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        list-style: none;
+        position: relative;
+        border-bottom: 1px;        
+    }  
+      .menu_i {
+        color: $blanco;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        list-style: none;
+        position: relative;
+        border-bottom: 1px;   
+
         display: inline-block;
         vertical-align: top;
-        transform: translate(0, 100%) rotate(-90deg);
-        transform-origin: 0 0;
+
         white-space: nowrap;
     }
+}
+#btn-menu{
+    display:none;
+}
+img{
+    display:block;
+    height:30px;
+    width:30px;
+    padding: 10px;
+    border-right: 1px solid $blanco;
+}
+header label:hover{
+    cursor: pointer;
+}
+
+.menu{
+    position: absolute;
+    background: $negro;
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+    margin-left: 100%;
+    ul{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+}
+}
+#btn-menu:checked~.menu{
+    margin: 0;
 }
 }
