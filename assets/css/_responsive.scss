@@ -12,8 +12,21 @@
     justify-content: space-around;
     height: $altura;
     }
+    header{
+        label:hover{
+    cursor: pointer;
+}
 
-    
+label{
+.imagen-menu{
+    display:block;
+    height:30px;
+    width:30px;
+    padding: 10px;
+    border-right: 1px solid $blanco;
+}
+}
+    } 
 nav {
     width: $ch;
     line-height: 188px;
@@ -44,17 +57,8 @@ nav {
 #btn-menu{
     display:none;
 }
-img{
-    display:block;
-    height:30px;
-    width:30px;
-    padding: 10px;
-    border-right: 1px solid $blanco;
-}
-header label:hover{
-    cursor: pointer;
-}
 
+ 
 .menu{
     position: absolute;
     background: $negro;

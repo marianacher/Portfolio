@@ -1,5 +1,15 @@
 @import 'variables';
 
+@media only screen and (max-width:1200px){
+    #btn-menu{
+    display:none;
+}
+    label{
+        display: none;
+        .imagen-menu{
+            display:none;
+    }
+    }
 nav {
     width: $ch;
     line-height: 188px;
@@ -16,6 +26,5 @@ nav {
         white-space: nowrap;
     }
 }
-#btn-menu{
-    display:none;
+
 }
