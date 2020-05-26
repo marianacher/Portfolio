@@ -1,7 +1,10 @@
-@import 'animation';
-@import 'icons';
-@import 'mobile';
 
+
+@import 'icons';
+@import 'variables';
+@import 'animation';
+@import 'responsive';
+@import 'menu';
 
 body {
     margin: 0;

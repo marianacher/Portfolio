@@ -1,6 +1,5 @@
 @import 'variables';
 
-@media only screen and (max-width:600px){
 
     .icons {
     width: 100%;
@@ -12,6 +11,7 @@
     }
 
     header{
+        z-index: 100;
         label:hover{
             cursor: pointer;
             }
@@ -19,19 +19,23 @@
 
 #btn-menu{
     display:none;
+    z-index: 100;
+
+}
+
+
 .imagen-menu{
+    left: 8px;
+    z-index: 100;
     display:block;
-    height:30px;
-    width:30px;
+    height:15px;
+    width:15px;
     padding: 10px;
     border-right: 1px solid $blanco;
 }
-}
-
-
-
  
 .menu{
+    z-index: 100;
     position: absolute;
     background: $negro;
     opacity: 1;
@@ -39,6 +43,7 @@
     height: 100%;
     margin-left: 100%;
     ul{
+        z-index: 100;
         display: flex;
         justify-content: space-between;
         flex-direction: column;
@@ -62,5 +67,4 @@ nav{
 
 #btn-menu:checked~.menu{
     margin: 0;
-}
 }
