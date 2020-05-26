@@ -1,0 +1,44 @@
+@import 'variables';
+
+@media only screen and (min-width:800px){
+    
+
+    #btn-menu{
+    display:none;
+}
+    label{
+        display: none;
+        .imagen-menu{
+            display:none;
+    }
+    }
+
+ 
+nav{
+   
+    background: transparent;
+
+     width: $ch;
+    line-height: 188px;
+    padding: $margen;
+    margin: $margen;
+    margin-left: 0;
+    margin-top: 185px;
+    display: flex;
+    flex-direction: row;
+        a{
+            line-height: 80pt;
+            display: flex;
+            flex-direction: row;
+            writing-mode: vertical-lr;
+            transform: rotate(180deg);
+ 
+     
+       
+    
+}
+  
+
+} ul{
+        display: none; }
+}
