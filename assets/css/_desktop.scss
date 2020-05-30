@@ -1,6 +1,6 @@
 @import 'variables';
 
-@media only screen and (min-width:800px){
+@media only screen and (min-width:1025px){
     
 
     #btn-menu{
@@ -24,6 +24,7 @@ nav{
     margin: $margen;
     margin-left: 0;
     margin-top: 105px;
+    margin-bottom: 35px;
     display: flex;
     flex-direction: row;
         a{
@@ -41,4 +42,11 @@ nav{
 
 } ul{
         display: none; }
+
+
+
+
+
+
 }
+
