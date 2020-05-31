@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,800);
 .hologram1 {
   animation: hologramlight 2s alternate infinite;
 }
@@ -92,7 +93,6 @@ nav ul a {
   display: flex;
   flex-direction: column;
   line-height: 8;
-  height: 40px;
   color: #f4f4f4;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
@@ -135,6 +135,7 @@ nav ul a {
     flex-direction: row;
     writing-mode: vertical-lr;
     transform: rotate(180deg);
+    height: 40px;
   }
 
   ul {
@@ -190,6 +191,316 @@ nav ul a {
   }
   .cont-prof .cont-text .text-sx {
     font-size: 2.25rem;
+  }
+}
+.cont-wor {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 35px;
+}
+.cont-wor .cont-img {
+  width: 100%;
+  height: 100%;
+}
+.cont-wor .imag-wo {
+  padding: 10px 0 0;
+  margin: 10px 0 0;
+  width: 150px;
+  height: 713px;
+  position: relative;
+  margin-left: 5px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  display: flex;
+}
+.cont-wor .cont-grid {
+  margin-right: 15px;
+  margin-left: 95px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  /*counter transform the bg image on the caps*/
+  /* Firefox < 16 */
+  /* Safari, Chrome and Opera > 12.1 */
+  /* Internet Explorer */
+  /* Opera < 12.1 */
+}
+.cont-wor .cont-grid .container {
+  width: 10%;
+  height: 2.5%;
+  margin: auto;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+}
+.cont-wor .cont-grid .hexagon {
+  position: relative;
+  width: 300px;
+  height: 173.21px;
+  margin: 86.6px 0;
+  box-shadow: 0 0 10px black;
+  margin-top: 5%;
+  margin-left: 10.5%;
+  float: left;
+}
+.cont-wor .cont-grid .title {
+  font-size: 1.5em;
+  text-align: center;
+  margin-top: 12.5%;
+  margin-left: 0%;
+  position: absolute;
+  width: 100%;
+  height: 40px;
+  font-family: "Raleway", Arial, sans-serif;
+  z-index: 1;
+  line-height: 1.7;
+}
+.cont-wor .cont-grid .statement {
+  font-size: 2em;
+  text-align: center;
+  margin-top: 27.5%;
+  margin-left: 0%;
+  position: absolute;
+  width: 100%;
+  height: 51px;
+  background-color: black;
+  color: white;
+  font-family: "Raleway", Arial, sans-serif;
+  z-index: 1;
+  line-height: 1.7;
+  font-weight: bold;
+}
+.cont-wor .cont-grid .hexagon:hover .hexagon-hidden {
+  display: block;
+}
+.cont-wor .cont-grid .hexagon-hidden {
+  position: absolute;
+  width: 300px;
+  height: 173.21px;
+  margin: 86.6px 0;
+  background-color: #DDDDDD;
+  -webkit-animation: fadein 1s;
+  /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 1s;
+  /* Firefox < 16 */
+  -ms-animation: fadein 1s;
+  /* Internet Explorer */
+  -o-animation: fadein 1s;
+  /* Opera < 12.1 */
+  animation: fadein 1s;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  float: left;
+  z-index: 99;
+  transform: scale(0.85);
+  font-family: "Raleway", Arial, sans-serif;
+  display: none;
+}
+.cont-wor .cont-grid .hover {
+  display: block;
+}
+.cont-wor .cont-grid #hiddenArea {
+  box-shadow: none;
+}
+.cont-wor .cont-grid .hexagon-hidden:hover {
+  background-image: none;
+}
+.cont-wor .cont-grid .hexTop,
+.cont-wor .cont-grid .hexBottom {
+  position: absolute;
+  z-index: 1;
+  width: 212.13px;
+  height: 212.13px;
+  overflow: hidden;
+  -webkit-transform: scaleY(0.5774) rotate(-45deg);
+  -ms-transform: scaleY(0.5774) rotate(-45deg);
+  transform: scaleY(0.5774) rotate(-45deg);
+  background: inherit;
+  left: 43.93px;
+  box-shadow: 0 0 10px black;
+}
+.cont-wor .cont-grid .hexTop:after,
+.cont-wor .cont-grid .hexBottom:after {
+  content: "";
+  position: absolute;
+  width: 300px;
+  height: 173.2050807569px;
+  -webkit-transform: rotate(45deg) scaleY(1.7321) translateY(-86.6025px);
+  -ms-transform: rotate(45deg) scaleY(1.7321) translateY(-86.6025px);
+  transform: rotate(45deg) scaleY(1.7321) translateY(-86.6025px);
+  -webkit-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  transform-origin: 0 0;
+  background: inherit;
+}
+.cont-wor .cont-grid .hexTop {
+  top: -106.066px;
+}
+.cont-wor .cont-grid .hexTop:after {
+  background-position: center top;
+}
+.cont-wor .cont-grid .hexBottom {
+  bottom: -106.066px;
+}
+.cont-wor .cont-grid .hexBottom:after {
+  background-position: center bottom;
+}
+.cont-wor .cont-grid .hexagon:after {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0;
+  width: 300px;
+  height: 173.2051px;
+  z-index: 2;
+  background: inherit;
+}
+@-webkit-keyframes AnimatedGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@-moz-keyframes AnimatedGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes AnimatedGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-ms-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-o-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  .cont-wor .imag-wo {
+    width: 181px;
+    height: 1065px;
+    margin-left: 205px;
+    margin-top: 45px;
+    margin-bottom: 35px;
+  }
+  .cont-wor .cont-grid {
+    margin-left: 145px;
+    margin-top: 85px;
+    margin-bottom: 35px;
+  }
+  .cont-wor .cont-grid .container {
+    width: 100px;
+    height: 50px;
+    margin: auto;
+    right: 0;
+    left: 290;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+  }
+  .cont-wor .cont-grid .hexagon {
+    position: relative;
+    width: 570px;
+    height: 370px;
+    margin: 86.6px 0;
+    background-image: url(../Portfolio/assets/img/3.jpg);
+    background-size: auto 346.4102px;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 10px black;
+    margin-top: 5%;
+    margin-left: 10.5%;
+    float: left;
+  }
+  .cont-wor .cont-grid .hexagon-hidden {
+    position: absolute;
+    width: 570px;
+    height: 370px;
+    margin: 86.6px 0;
+    background-color: #DDDDDD;
+    -webkit-animation: fadein 1s;
+    /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 1s;
+    /* Firefox < 16 */
+    -ms-animation: fadein 1s;
+    /* Internet Explorer */
+    -o-animation: fadein 1s;
+    /* Opera < 12.1 */
+    animation: fadein 1s;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    float: left;
+    z-index: 99;
+    transform: scale(0.85);
+    font-family: "Raleway", Arial, sans-serif;
+    display: none;
   }
 }
 body {
