@@ -1,0 +1,297 @@
+
+.section-header {
+     display:flex;
+      flex-wrap:wrap;
+      flex-direction: column;
+    justify-content: center;
+
+    flex-flow: column wrap;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 50px;
+  margin-bottom: 50px;
+  font-size: 25px;
+  letter-spacing: 6px;
+  color: #fff;
+  margin-bottom: 25px;
+}
+#contact {
+    display:flex;
+    justify-content: flex-end;
+     flex-direction: column;
+  width: 100%;
+ height: 1000px;
+  background-color: #111;
+  overflow: hidden;
+  color:white;
+  padding-bottom: 200px;
+}
+
+
+.contact-wrapper {
+  margin: 0 auto;
+  padding-top: 20px;
+  position: relative;
+  max-width: 800px;
+}
+
+/* Begin Left Contact Page */
+.form-horizontal {
+    float: none;
+    margin: 10px auto;
+  font-family: 'Lato';
+  font-weight: 400;
+}
+
+.form-control, textarea {
+  max-width: 400px;
+  background-color: #111;
+  color: #fff;
+  letter-spacing: 1px;
+  border: 1px solid white;
+}
+
+.send-button {
+  margin-top: 15px;
+  height: 34px;
+  width: 400px;
+  overflow: hidden;
+  transition: all .2s ease-in-out;
+}
+
+.button {
+  width: 400px;
+  height: 34px;
+  transition: all .2s ease-in-out;
+}
+
+.send-text {
+  display: block;
+  margin-top: 10px;
+  font: 300 14px 'Lato', sans-serif;
+  letter-spacing: 2px;
+}
+
+.button:hover {
+  transform: translate3d(0px, -29px, 0px);
+}
+
+/* Begin Right Contact Page */
+.direct-contact-container {
+    
+      justify-content: center;
+    display:flex;
+      flex-wrap:wrap;
+    flex-direction: row;
+    float: none;
+
+  margin-top: 60px;
+    max-width: 300px;
+
+}
+
+/* Location, Phone, Email Section */
+.contact-list {
+    justify-content: right;
+    display:flex;
+      flex-wrap:wrap;
+    flex-direction: row;
+  list-style-type: none;
+  margin-left: -30px;
+  padding-right: 20px;
+}
+
+.list-item {
+  line-height: 4;
+  color: #aaa;
+}
+
+.contact-text {
+  font: 300 18px 'Lato', sans-serif;
+  letter-spacing: 1.9px;
+  color: #bbb;
+}
+
+.place {
+  margin-left: 62px;
+}
+
+.phone {
+  margin-left: 56px;
+}
+
+.gmail {
+  margin-left: 53px;
+}
+
+.contact-text a {
+  color: #bbb;
+  text-decoration: none;
+  transition-duration: 0.2s;
+}
+
+.contact-text a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width:1025px){
+
+#contact {
+      display:flex;
+    justify-content: center;
+    flex-direction: wrap;
+    flex-direction: row;
+    top:145px;
+  width: 100%;
+  height: 100%;
+  background-color: #111;
+  overflow: hidden;
+  padding-bottom: 200px;
+}
+
+.section-header {
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+      align-items: center ;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 50px;
+  margin-bottom: 50px;
+  font: 300 60px 'Oswald', sans-serif;
+  letter-spacing: 6px;
+  color: #fff;
+  margin-bottom: 25px;
+}
+
+.contact-wrapper {
+  margin: 0 auto;
+  padding-top: 20px;
+  position: relative;
+  max-width: 800px;
+}
+
+/* Begin Left Contact Page */
+.form-horizontal {
+  float: none;
+  max-width: 400px;
+  font-family: 'Lato';
+  font-weight: 400;
+}
+
+.form-control, textarea {
+  max-width: 100%;
+  background-color: #111;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.send-button {
+  margin-top: 15px;
+  height: 34px;
+  width: 400px;
+  overflow: hidden;
+  transition: all .2s ease-in-out;
+}
+
+.button {
+  width: 400px;
+  height: 34px;
+  transition: all .2s ease-in-out;
+}
+
+.send-text {
+  display: block;
+  margin-top: 10px;
+  font: 300 14px 'Lato', sans-serif;
+  letter-spacing: 2px;
+}
+
+.button:hover {
+  transform: translate3d(0px, -29px, 0px);
+}
+
+/* Begin Right Contact Page */
+.direct-contact-container {
+
+  max-width: 400px;
+  float: none;
+  margin-top: 5px;
+}
+
+/* Location, Phone, Email Section */
+.contact-list {
+
+     flex-wrap: wrap;
+    display:flex;
+      align-content: flex-start;
+      align-items: baseline ;
+  list-style-type: none;
+  margin-left: 30px;
+  padding-right: 20px;
+}
+
+.list-item {
+      display:flex;
+      align-content: center;
+  line-height: 4;
+  color: #aaa;
+}
+
+.contact-text {
+    display:flex;
+      align-content: center;
+      align-self: flex-end;
+  font: 300 18px 'Lato', sans-serif;
+  letter-spacing: 1.9px;
+  color: #bbb;
+}
+
+.place {
+    display:flex;
+      align-content: center;
+  margin-left: 62px;
+}
+
+.phone {
+    display:flex;
+      align-content: center;
+      
+  margin-left: 56px;
+}
+
+.gmail {
+    display:flex;
+      align-content: center;
+      
+  margin-left: 53px;
+}
+
+.contact-text a {
+    display:flex;
+      align-content: center;
+       align-self: flex-end;
+  color: #bbb;
+  text-decoration: none;
+  transition-duration: 0.2s;
+}
+
+.contact-text a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+
+}
